@@ -1,6 +1,6 @@
 {
   "name": "kindle",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Kindle chat app",
   "author": "Kindle",
   "main": "main.js",
@@ -9,7 +9,7 @@
   "build": {
     "appId": "com.kindle.chat",
     "productName": "Kindle",
-    "files": ["main.js", "app-url.txt", "icon-512.png"],
+    "files": ["main.js", "index.html", "manifest.webmanifest", "sw.js", "icon-192.png", "icon-512.png", "icon-maskable-512.png"],
     "win": { "target": "nsis", "icon": "icon-512.png" },
     "nsis": { "oneClick": true }
   }
